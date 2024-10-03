@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 DATABASE = Path("data/default-cards-20240924090726.json")
-GUEDHS_DATABASE = Path("data/gueEDHs_database.json")
+GUEDHS_DATABASE = Path("data/fair_commander_database.json")
 BANLIST = Path("data/banlist.json")
 DECK = Path("deck.json")
 
@@ -13,7 +13,7 @@ def check_database_exists():
     pass
 
 def open_card_database():
-    with open("data/gueEDHs_database.json", mode="r", encoding="utf-8") as read_cards:
+    with open("data/fair_commander_database.json", mode="r", encoding="utf-8") as read_cards:
         card_database = json.load(read_cards)
         return set(card_database)
 
