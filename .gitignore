@@ -1,6 +1,7 @@
 default-cards-*
 fair_commander_database.json
 old*
+gu
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

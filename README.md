@@ -7,7 +7,16 @@ This is an alternative format of commander, with rulings looking to fair play.
 
 Be sure to follow the format of ```["card 1", "card 2"]```
 
-3. Run the program: `python3 main.py`
+3. Install `poetry` in your system
+```
+python3 -m pip install pipx
+python3 -m pipx install poetry
+```
+
+4. Run the program
+```
+poetry run python -m fair_commander
+```
 
 # How to Create the database:
 1. Download the "Default Cards" database from [Scryfall.com](https://scryfall.com/docs/api/bulk-data) and place it in the `data` directory.
